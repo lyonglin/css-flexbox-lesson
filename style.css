@@ -49,27 +49,32 @@
     flex: 4 1 1px;
     order: 3;
 }
-.jumbotron{
-border: 1px solid antiquewhite;
-border-radius: 6px;
-background: grey;
+
+.jumbotron {
+    border: 1px solid antiquewhite;
+    border-radius: 6px;
+    background: grey;
 }
-h1{
+
+h1 {
     padding: 0;
 }
-.jumbotron p{
+
+.jumbotron p {
     padding: 0
 }
-.btn-primary{
+
+.btn-primary {
     display: inline-block;
-font-size: 20px;
-text-decoration: none;
-color: white;
-padding: 15px 28px;
-border: 2px solid rgb(21, 151, 226);
-background: rgb(21, 151, 226);
-border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 28px;
+    border: 2px solid rgb(21, 151, 226);
+    background: rgb(21, 151, 226);
+    border-radius: 4px;
 }
+
 .cards {
     display: flex;
 }
@@ -86,32 +91,36 @@ border-radius: 4px;
     height: auto;
     padding-bottom: 0;
 }
-.card__title{
+
+.card__title {
     padding-bottom: 0;
 }
-.card__text{
+
+.card__text {
     padding-top: 0;
     margin-top: 0;
 }
+
 .card__body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:1px solid #b7deed;
+    border: 1px solid #b7deed;
     border-radius: 6px;
 }
-.btn{
+
+.btn {
     display: inline-block;
-font-size: 20px;
-text-decoration: none;
-color: white;
-padding: 10px;
-border: 2px solid rgb(21, 151, 226);
-background: rgb(21, 151, 226);
-border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(21, 151, 226);
+    background: rgb(21, 151, 226);
+    border-radius: 4px;
 }
 
-.card__footer{
+.card__footer {
     padding: 0;
 }
 
