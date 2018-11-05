@@ -18,12 +18,17 @@
 
 .header {
     flex-basis: 100%;
-    background: #edb1a8;
-    background: linear-gradient(to bottom, #edb1a8 0%, #ea341c 100%);
+    background: rgb(181, 189, 200);
+    background: linear-gradient(to bottom, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
     order: 1;
     height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.header__logo-link,
+.nav_link {
+    text-decoration: none;
 }
 
 .header__nav {
@@ -42,8 +47,7 @@
 }
 
 .main {
-    background: #b7deed;
-    background: linear-gradient(to bottom, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%);
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
     /* flex-grow: 4;
     flex-basis: 1px; */
     flex: 4 1 1px;
@@ -84,6 +88,10 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 6px;
+    margin: 20px;
 }
 
 .card__image {
@@ -105,8 +113,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #b7deed;
-    border-radius: 6px;
 }
 
 .btn {
@@ -141,7 +147,8 @@ h1 {
 }
 
 .footer {
-    background: -moz-linear-gradient(top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: rgb(181, 189, 200);
+    background: linear-gradient(to bottom, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
     flex-basis: 100%;
     order: 5;
     height: 50px;
